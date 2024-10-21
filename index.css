@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:  hsl(0, 0%, 95%);
+    font-size: 15px;
+    
+}
+
+main{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row; 
+    /* justify-content: center; */
+    margin: 150px auto;
+    height: 380%;
+    width: 48%;
+    border-radius: 8px;
+    font-weight: 400px;
+}
+
+
+
+.car1{
+    background-color: hsl(31, 77%, 52%);
+    width: 40%;
+    padding: 35px;
+    
+    
+}
+
+.car2{
+    background-color: hsl(184, 100%, 22%);
+    width: 40%;
+    padding: 35px;
+
+}
+
+.car3{
+    background-color: hsl(179, 100%, 13%);
+    width: 40%;
+    padding: 35px;
+    
+}
+
+h2{
+    color: hsl(0, 0%, 95%);
+    margin-top: 25px;
+
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 25px;
+}
+
+input{
+    margin-top: 75px;
+    border-radius: 15px;
+    width: 70%;
+    height: 12%;
+    text-align: center;
+    
+}
+
+.submit-btn{
+    color: hsl(31, 77%, 52%);
+    border: none;
+    cursor: pointer;
+}
+
+.submit-btn2{
+    color: hsl(184, 100%, 22%);
+    border: none;
+    cursor: pointer;
+}
+.submit-btn3{
+    color: hsl(179, 100%, 13%);
+    border: none;
+    cursor: pointer;
+}
+
