@@ -71,6 +71,8 @@ input{
     color: hsl(31, 77%, 52%);
     border: none;
     cursor: pointer;
+    border-radius: 8px;
+    /* border-top-right-radius: 20px; */
 }
 
 .submit-btn2{
@@ -83,4 +85,6 @@ input{
     border: none;
     cursor: pointer;
 }
+
+
 
